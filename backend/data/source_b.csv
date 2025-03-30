@@ -1,0 +1,6 @@
+dealer,company,model,date_of_sale,price,location,salesperson,vin
+Dealer B,Honda,Accord,2023-09-15,24000,San Diego,Michael Chen,1HGCR2F3XHA123456
+Dealer B,Toyota,RAV4,2024-04-20,26000,Seattle,Rachel Green,2T3RFREV5JW123456
+Dealer B,Chevrolet,Malibu,2021-11-02,20000,Miami,Ben Rogers,1G1ZD5STXJF123456
+Dealer B,Honda,CR-V,2025-02-10,27000,Denver,Chris Evans,2HKRW2H56HH123456
+Dealer B,Ford,Escape,2023-06-05,23500,Boston,Emma Davis,1FMCU9GD0KUA123456

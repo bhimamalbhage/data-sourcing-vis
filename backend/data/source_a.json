@@ -1,0 +1,52 @@
+[
+  {
+    "dealer": "Dealer A",
+    "company": "Toyota",
+    "model": "Camry",
+    "date_of_sale": "2023-03-12",
+    "price": 25000,
+    "location": "New York",
+    "salesperson": "Alice Johnson",
+    "vin": "JT4BG22K8T1234567"
+  },
+  {
+    "dealer": "Dealer A",
+    "company": "Honda",
+    "model": "Civic",
+    "date_of_sale": "2024-07-25",
+    "price": 22000,
+    "location": "Los Angeles",
+    "salesperson": "David Kim",
+    "vin": "2HGES267X4H123456"
+  },
+  {
+    "dealer": "Dealer A",
+    "company": "Ford",
+    "model": "Fusion",
+    "date_of_sale": "2022-05-10",
+    "price": 21000,
+    "location": "Chicago",
+    "salesperson": "Maria Gonzalez",
+    "vin": "3FA6P0H70JR123456"
+  },
+  {
+    "dealer": "Dealer A",
+    "company": "Toyota",
+    "model": "Corolla",
+    "date_of_sale": "2025-01-30",
+    "price": 23000,
+    "location": "Houston",
+    "salesperson": "John Doe",
+    "vin": "2T1BURHE4JC123456"
+  },
+  {
+    "dealer": "Dealer A",
+    "company": "Nissan",
+    "model": "Altima",
+    "date_of_sale": "2023-11-18",
+    "price": 24000,
+    "location": "Phoenix",
+    "salesperson": "Sophia Lee",
+    "vin": "1N4AL3AP5JC123456"
+  }
+]
