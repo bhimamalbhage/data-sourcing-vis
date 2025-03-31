@@ -1,52 +1,163 @@
 [
   {
-    "dealer": "Dealer A",
-    "company": "Toyota",
-    "model": "Camry",
-    "date_of_sale": "2023-03-12",
-    "price": 25000,
-    "location": "New York",
-    "salesperson": "Alice Johnson",
-    "vin": "JT4BG22K8T1234567"
-  },
-  {
-    "dealer": "Dealer A",
     "company": "Honda",
-    "model": "Civic",
-    "date_of_sale": "2024-07-25",
-    "price": 22000,
-    "location": "Los Angeles",
-    "salesperson": "David Kim",
-    "vin": "2HGES267X4H123456"
-  },
-  {
-    "dealer": "Dealer A",
-    "company": "Ford",
-    "model": "Fusion",
-    "date_of_sale": "2022-05-10",
-    "price": 21000,
+    "car_model": "Honda Civic",
+    "sale_date": "2023-01-15",
+    "price": 23500.0,
     "location": "Chicago",
-    "salesperson": "Maria Gonzalez",
-    "vin": "3FA6P0H70JR123456"
+    "customer_type": "Individual"
+  },
+
+  {
+    "company": "Honda",
+    "car_model": "Honda Accord",
+    "sale_date": "2023-02-10",
+    "price": 29800.0,
+    "location": "Dallas",
+    "customer_type": "Individual"
   },
   {
-    "dealer": "Dealer A",
     "company": "Toyota",
-    "model": "Corolla",
-    "date_of_sale": "2025-01-30",
-    "price": 23000,
-    "location": "Houston",
-    "salesperson": "John Doe",
-    "vin": "2T1BURHE4JC123456"
+    "car_model": "Toyota Camry",
+    "sale_date": "2023-01-22",
+    "price": 27200.0,
+    "location": "Chicago",
+    "customer_type": "Individual"
   },
   {
-    "dealer": "Dealer A",
-    "company": "Nissan",
-    "model": "Altima",
-    "date_of_sale": "2023-11-18",
-    "price": 24000,
+    "company": "Toyota",
+    "car_model": "Toyota Corolla",
+    "sale_date": "2023-03-05",
+    "price": 21500.0,
+    "location": "Houston",
+    "customer_type": "Individual"
+  },
+  {
+    "company": "Ford",
+    "car_model": "Ford F-150",
+    "sale_date": "2023-02-18",
+    "price": 42000.0,
+    "location": "Dallas",
+    "customer_type": "Business"
+  },
+  {
+    "company": "Ford",
+    "car_model": "Ford Escape",
+    "sale_date": "2023-04-12",
+    "price": 31200.0,
+    "location": "Miami",
+    "customer_type": "Individual"
+  },
+  {
+    "company": "Tesla",
+    "car_model": "Tesla Model 3",
+    "sale_date": "2023-03-20",
+    "price": 48500.0,
+    "location": "San Francisco",
+    "customer_type": "Individual"
+  },
+  {
+    "company": "Tesla",
+    "car_model": "Tesla Model Y",
+    "sale_date": "2023-05-08",
+    "price": 56700.0,
+    "location": "Seattle",
+    "customer_type": "Individual"
+  },
+  {
+    "company": "BMW",
+    "car_model": "BMW 3 Series",
+    "sale_date": "2023-04-25",
+    "price": 45800.0,
+    "location": "Boston",
+    "customer_type": "Individual"
+  },
+  {
+    "company": "BMW",
+    "car_model": "BMW X5",
+    "sale_date": "2023-06-15",
+    "price": 65300.0,
+    "location": "Atlanta",
+    "customer_type": "Business"
+  },
+  {
+    "company": "Honda",
+    "car_model": "Honda CR-V",
+    "sale_date": "2023-07-10",
+    "price": 33200.0,
     "location": "Phoenix",
-    "salesperson": "Sophia Lee",
-    "vin": "1N4AL3AP5JC123456"
+    "customer_type": "Individual"
+  },
+  {
+    "company": "Toyota",
+    "car_model": "Toyota RAV4",
+    "sale_date": "2023-08-05",
+    "price": 32100.0,
+    "location": "Chicago",
+    "customer_type": "Individual"
+  },
+  {
+    "company": "Ford",
+    "car_model": "Ford Mustang",
+    "sale_date": "2023-09-18",
+    "price": 38900.0,
+    "location": "Chicago",
+    "customer_type": "Individual"
+  },
+  {
+    "company": "Tesla",
+    "car_model": "Tesla Model S",
+    "sale_date": "2023-10-22",
+    "price": 89500.0,
+    "location": "Washington DC",
+    "customer_type": "Business"
+  },
+  {
+    "company": "BMW",
+    "car_model": "BMW 5 Series",
+    "sale_date": "2023-11-15",
+    "price": 58700.0,
+    "location": "Denver",
+    "customer_type": "Individual"
+  },
+  {
+    "company": "Honda",
+    "car_model": "Honda HR-V",
+    "sale_date": "2024-01-05",
+    "price": 25800.0,
+    "location": "Dallas",
+    "customer_type": "Individual"
+  },
+  {
+    "company": "Toyota",
+    "car_model": "Toyota Highlander",
+    "sale_date": "2024-02-12",
+    "price": 42300.0,
+    "location": "Dallas",
+    "customer_type": "Individual"
+  },
+  {
+    "company": "Ford",
+    "car_model": "Ford Explorer",
+    "sale_date": "2024-03-08",
+    "price": 39800.0,
+    "location": "Chicago",
+    "customer_type": "Business"
+  },
+  {
+    "company": "Tesla",
+    "car_model": "Tesla Model X",
+    "sale_date": "2024-04-20",
+    "price": 95200.0,
+    "location": "Portland",
+    "customer_type": "Individual"
+  },
+  {
+    "company": "BMW",
+    "car_model": "BMW 7 Series",
+    "sale_date": "2024-05-15",
+    "price": 87500.0,
+    "location": "Las Vegas",
+    "customer_type": "Business"
   }
 ]

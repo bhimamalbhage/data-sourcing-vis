@@ -13,6 +13,8 @@ def worker():
         db = SessionLocal()
         task = db.query(models.Task).filter(models.Task.id == task_id).first()
         if task:
+            print(f"[{task.id}] Task is pending...")
+            time.sleep(5)
             task.status = "in_progress"
             db.commit()
 

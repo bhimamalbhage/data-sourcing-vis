@@ -24,5 +24,9 @@ class SalesRecord(Base):
     model = Column(String)
     date_of_sale = Column(String)
     price = Column(Float)
+    location = Column(String)
+    customer_type = Column(String)
+    source = Column(String) 
 
     task = relationship("Task", back_populates="records")
+

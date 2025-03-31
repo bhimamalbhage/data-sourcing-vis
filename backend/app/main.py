@@ -28,7 +28,10 @@ def create_task(task: schemas.TaskCreate, db: Session = Depends(get_db)):
     filters = {
         "start_year": task.start_year,
         "end_year": task.end_year,
-        "brands": task.brands
+        "source_a_brands": task.source_a_brands,
+        "source_b_brands": task.source_b_brands,
+        "price_range": task.price_range.dict() if task.price_range else None,
+        "location": task.location
     }
     db_task = Task(name=task.name, filters=filters)
     db.add(db_task)
@@ -56,7 +59,9 @@ def get_task(task_id: int, db: Session = Depends(get_db)):
                 "company": r.company,
                 "model": r.model,
                 "date_of_sale": r.date_of_sale,
-                "price": r.price
+                "price": r.price,
+                "location": r.location,
+                "customer_type": r.customer_type,
             } for r in records
         ]
     }
